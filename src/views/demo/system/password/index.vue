@@ -22,6 +22,7 @@
       const [register, { validate, resetFields }] = useForm({
         size: 'large',
         labelWidth: 100,
+        baseColProps: { span: 24 },
         showActionButtonGroup: false,
         schemas: formSchema,
       });
